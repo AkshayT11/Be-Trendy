@@ -56,29 +56,15 @@
 
 /* New arrival section style */
 
-/* .arrival{
-  position: relative;
-  height: 400;
-}
-.swiperArrival{
-  width: 100%;
-  height: 100%;
-}
-.swiper-slide-arrival {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.product-card:hover .icon{
+  display: block;
+  z-index: 99;
+  /* top: -50px;
+  position: relative;  */
+
 }
 
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-} */
+
 
 /* ANimation section */
 

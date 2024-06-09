@@ -28,4 +28,17 @@ var swiper = new Swiper(".mySwiperArrival", {
     clickable: true,
   },
 });
+
+// Time function start
+
+let currenttime = document.getElementById("currenttime")
+
+function time(){
+  let date = new Date();
+  let datetime = date.toLocaleTimeString();
+  // alert(datetime);
+  currenttime.innerHTML ="35 Days " + datetime
+}
+
+setInterval(time,1000)
   
